@@ -37,6 +37,7 @@ public class RegistroMb {
 
     @PostConstruct
     public void init() { 
+        System.out.println("Hola");
         persona = new Persona();
         cliList = new ArrayList<Cliente>();
         cliente = new Cliente();
